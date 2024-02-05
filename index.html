@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
+    <title>Taller4</title>
+</head>
+<body>
+    <div class="cajatitulo">
+        <h1 class="titulo">CALCULADORA DE PROMEDIO FINAL</h1>
+    </div>
+    <p class="parrafo">Bienvenid@ usuario, aquí podrá calcular el promedio final de la asignatura de algoritmos, dicha calificación se compone de los siguientes porcentajes: <br>
+        • 55% Promedio final de sus calificaciones parciales, se 
+        compone de 3 notas (nota 1, nota 2 y nota 3). <br>
+        • 30% Examen parcial (nota 4). <br>
+        • 15% Calificación del trabajo final (nota 5). <br>
+        Recuerde que el programa calculará el promedio siempre y cuando los valores que ingrese estén en el rango de 10 a 50.
+        </p>
+    <div class="container">
+        <form action="" class="formulario"> <h3>Ingrese sus notas</h3>
+            <label for="">Nota 1</label>
+            <input type="number" name="" id="nota1" required> 
+            <label for="">Nota 2</label>
+            <input type="number" name="" id="nota2" required> 
+            <label for="">Nota 3</label>
+            <input type="number" name="" id="nota3" required> 
+            <label for="">Nota 4</label>
+            <input type="number" name="" id="nota4" required>   
+            <label for="">Nota 5</label>
+            <input type="number" name="" id="nota5" required>
+            <button type="button" class="botoncalcular" onclick="promedio()">¡Calcular promedio final!</button>
+        </form>
+    </div>
+    <p id="mensaje"></p>
+    <p id="error"></p>
+</body>
+<footer>
+    <p>Todos los derechos reservados</p>
+</footer>
+</html>

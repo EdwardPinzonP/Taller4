@@ -1,0 +1,73 @@
+.cajatitulo{
+    height: 120px;
+    background-color: rgb(221, 235, 231);
+}
+.titulo{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 50px;
+    
+    
+}
+.parrafo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin-top: 2%;
+    border: none;
+    border-radius: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgb(221, 235, 231);
+}
+.formulario{
+    display: grid;
+}
+h3{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+} 
+input{
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    height: 80%;
+    border: none;
+} 
+.botoncalcular{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+    margin-bottom: 8%;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    height: 60%;
+}
+.botoncalcular:hover{
+    background-color: rgb(221, 235, 231);
+}
+footer{
+    margin-top: 30px;
+    height: 120px;
+    background-color: rgb(221, 235, 231);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+#mensaje{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#error{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
